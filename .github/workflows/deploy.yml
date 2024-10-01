@@ -5,6 +5,9 @@ on:
     branches:
       - main  # or the branch you are working on
 
+permissions:
+  contents: write  # Allow write access to the repository
+
 jobs:
   build:
     runs-on: ubuntu-latest
